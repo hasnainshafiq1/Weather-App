@@ -1,0 +1,38 @@
+body{
+    background-image: url('weather-shutterstock.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+
+}
+.h1{
+    font-size: 2em;
+    margin-left: 120px;
+}
+.zeeshan{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 320px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+h1{
+    color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+input{
+margin-top: 20px;
+}
+.country{
+margin-left: 20px;
+}
+.image{
+margin: 10px;
+}
+.khan{
+margin: 10px;
+}

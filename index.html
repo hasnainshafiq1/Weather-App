@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <h1 class="h1">Hasnain Weather App</h1>
+
+    <div class="zeeshan">
+        <div class="khan">
+            <form onsubmit="getWeather(); return false">
+        <div class="input">
+                <label for="cityName">City:</label>
+                <input type="text" class="inp" id="cityName" placeholder="enter your city name">
+                <button type="submit" class="btn">Get Weather</button>
+                
+        
+                
+        
+        
+            </form>
+        <h3 id="country" class="country"></h3>
+        <div class="main">
+<h2 id="image" class="image"></h2>
+<h1 id="temp"></h1>
+</div>
+
+<h3 class="khan" id="description"></h3>
+<h3 class="khan" id = 'humidity'></h3>
+<h5 class="khan"  id="max"></h5>
+<h5  class="khan " id="min"></h5>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
